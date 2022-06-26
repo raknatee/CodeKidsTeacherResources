@@ -1,10 +1,30 @@
 <template>
-  
-  <router-view/>
+  <div class="main-layout">
+  <router-view/>  
+
+
+     <footer>
+      <p>&copy; Created by Raknatee and Nattanon</p>
+    </footer>
+  </div>
+
 </template>
 
 <style lang="scss">
-
+.main-layout{
+  display: grid;
+  min-height: 100vh;
+  width: 100vw;
+  grid-template-columns: 1fr;
+  place-items: center;
+  
+}
+footer{
+  height: 5rem;
+  color: black;
+  display: grid;
+  place-items: center;
+}
 
 @font-face {
     font-family: eina;
@@ -23,7 +43,7 @@
 
 }
 *{
-      animation: fade-up;
+    animation: fade-up;
     animation-duration: 1s;
 }
 body{
@@ -36,6 +56,9 @@ body{
   width: 100vw;
 }
 
+a{
+  text-decoration: none;
+}
 
 
 
@@ -47,7 +70,7 @@ import { defineComponent } from 'vue';
 
 export default defineComponent({
   setup(){
-    document.title = "Procreate"
+    document.title = "CodeKids Teacher Resources"
   }
 
 });

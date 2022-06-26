@@ -7,11 +7,14 @@ const routes: Array<RouteRecordRaw> = [
     name: 'Home',
     component: Home
   },
-  // {
-  //   path: '/create-new-canvas',
-  //   name: 'create-new-canvas',
-  //   component: () => import("@/views/001-create-canvas.vue")
-  // },
+  {
+    path: '/python',
+    component: () => import("@/views/Py/Index.vue")
+  },
+  {
+    path: '/scratch',
+    component: () => import("@/views/Scratch/Index.vue")
+  },
 ]
 
 const router = createRouter({

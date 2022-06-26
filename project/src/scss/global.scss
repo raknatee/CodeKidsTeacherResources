@@ -1,0 +1,59 @@
+.img-border {
+    border-radius: 1rem;
+}
+
+@mixin btn($text-color, $bg-color) {
+
+    color: $text-color;
+    background-color: $bg-color;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    border-radius: 1rem;
+    transition: all;
+    transition-duration: .5s;
+    $shadow: 5px 5px 1rem 1px;
+    box-shadow: $shadow darken($color: $bg-color, $amount: 10%);
+
+    &:hover {
+        background-color: lighten($color: $bg-color, $amount: 20%);
+        box-shadow: $shadow darken($color: $bg-color, $amount: 20%);
+    }
+}
+
+@mixin grid-bg($bg-color, $line-color) {
+    background-color: $bg-color;
+    background-size: 3rem 3rem;
+    background-image: linear-gradient(to right, $line-color 1px, transparent 1px),
+        linear-gradient(to bottom, $line-color 1px, transparent 1px);
+}
+
+@mixin rect-bg($bg-color, $line-color,$size) {
+    &{
+        position: relative;
+        overflow: hidden;
+       
+        background-color: $bg-color;
+        z-index: 0;
+        &::before{
+            content: "";
+            position: absolute;
+            width: 200%;
+            height: 200%;
+            top:-50%;
+            left: -50%;
+            background-size: 3rem 3rem;
+            background-image: linear-gradient(to right, $line-color $size, transparent 1px),
+                linear-gradient(to bottom, $line-color $size, transparent 1px);
+            transform: rotateZ(-45deg);
+            z-index: -1;
+        }
+    }
+
+}
+
+@mixin dot-bg($bg-color, $dot-color, $dot-size) {
+    background-color: $bg-color;
+    background-size: 3rem 3rem;
+    background-image: radial-gradient(circle, $dot-color $dot-size, rgba(0, 0, 0, 0) 1px);
+}
