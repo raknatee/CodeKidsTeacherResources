@@ -1,5 +1,12 @@
 .img-border {
     border-radius: 1rem;
+    height: 30vh;
+    @media (max-width:600px){
+        height: 20vh;
+    }
+    @media (max-width:400px){
+        height: 15vh;
+    }
 }
 
 @mixin btn($text-color, $bg-color) {

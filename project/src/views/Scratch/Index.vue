@@ -83,9 +83,7 @@ $thirth-bp:350px;
   .dummy{
     height: var(--gap);
 }
-.img-border{
-  width: 80vw;
-}
+
 .gs{
   display: grid;
   grid-template-columns: 1fr;

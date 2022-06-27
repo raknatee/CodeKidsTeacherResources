@@ -52,9 +52,7 @@ body{
     padding: 0;
 
 }
-.img-slide{
-  width: 100vw;
-}
+
 
 a{
   text-decoration: none;

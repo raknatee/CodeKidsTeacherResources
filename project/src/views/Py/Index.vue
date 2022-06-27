@@ -43,9 +43,6 @@ $second-bp:350px;
   }
   
 
-  .img-border{
-    width: 80vw;
-  }
   .dummy{
   height: var(--gap-size);
   @media(max-width:$first-bp){
