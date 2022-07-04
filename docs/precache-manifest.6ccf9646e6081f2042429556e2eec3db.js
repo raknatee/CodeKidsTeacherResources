@@ -28,16 +28,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/class-logos/scratch/mario.jpeg"
   },
   {
-    "revision": "479940ff32ca17a59ae4",
+    "revision": "fb3ae8d478e273af3d24",
     "url": "/css/app.5e4d676b.css"
   },
   {
-    "revision": "c702aec4bc380dfd5851",
-    "url": "/css/chunk-5ec40de2.23242b70.css"
+    "revision": "35ff2aab3513ce1fd972",
+    "url": "/css/chunk-191306ff.bb7af07d.css"
   },
   {
-    "revision": "f9e1948fd390e6c2b3da",
-    "url": "/css/chunk-682088b3.45cbcfe8.css"
+    "revision": "ec636df2cc78255627f2",
+    "url": "/css/chunk-2ff75b42.2e9b06af.css"
   },
   {
     "revision": "2e2580c23f01362b1798de6af5d1d55a",
@@ -52,20 +52,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/eina/More Free Fonts on fontshmonts.com.url"
   },
   {
-    "revision": "1985695d85e3c3d2d39ae03d38f5ede6",
+    "revision": "03c3aa431fe5437eb20505f49cb0b9c9",
     "url": "/index.html"
   },
   {
-    "revision": "479940ff32ca17a59ae4",
-    "url": "/js/app.2aef95c8.js"
+    "revision": "fb3ae8d478e273af3d24",
+    "url": "/js/app.b8bbdf20.js"
   },
   {
-    "revision": "c702aec4bc380dfd5851",
-    "url": "/js/chunk-5ec40de2.c4f4c572.js"
+    "revision": "35ff2aab3513ce1fd972",
+    "url": "/js/chunk-191306ff.d8b207aa.js"
   },
   {
-    "revision": "f9e1948fd390e6c2b3da",
-    "url": "/js/chunk-682088b3.a1ba7800.js"
+    "revision": "ec636df2cc78255627f2",
+    "url": "/js/chunk-2ff75b42.6cbc0821.js"
   },
   {
     "revision": "03c2b840e36cf09704d5",

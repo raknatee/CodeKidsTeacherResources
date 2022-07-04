@@ -26,6 +26,7 @@ footer{
   place-items: center;
 }
 
+
 @font-face {
     font-family: eina;
     src: url(/eina/Eina01-SemiBold.ttf);

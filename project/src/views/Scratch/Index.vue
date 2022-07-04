@@ -45,7 +45,9 @@
   <a
     href="https://drive.google.com/drive/u/0/folders/1ISr8wIPyUmPUJSfC-A6uj1iHwZuRVSL9"
     target="_blank"
+    class="class-frame"
   >
+    <h2>Mario Game</h2>
     <img class="img-border" src="/class-logos/scratch/mario.jpeg" alt="" />
   </a>
 
@@ -109,6 +111,9 @@ $thirth-bp:350px;
 
   }
 }
+}
+.class-frame{
+  @include class-frame(#1A1D35)
 }
 
 </style>
