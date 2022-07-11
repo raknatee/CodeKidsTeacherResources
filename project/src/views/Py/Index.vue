@@ -23,7 +23,7 @@
           class="class-frame"
 
         >
-        <h2>Python</h2>
+        <h2>Python and Pythonic Python</h2>
 
           <img
             class="img-border"

@@ -4,6 +4,7 @@
       <h1>CodeKids Teacher</h1>
     </header>
     <div class="content">
+    
       <router-link to="/python" class="btn btn-py">
         <h1>Python Series</h1>
         <img class="btn-img" src="/class-logos/py/main.png" alt="" />
@@ -12,6 +13,12 @@
       <router-link to="/scratch" class="btn btn-scratch">
         <h1>Scratch Series</h1>
         <img class="btn-img" src="/class-logos/scratch/main.png" alt="" />
+      </router-link>
+       <router-link to="/web-html" class="btn btn-web">
+        <h1>Web and HTML Series</h1>
+         <img class="btn-img" src="/class-logos/web-html/web.png" alt="" />
+       
+        
       </router-link>
     </div>
   </div>
@@ -56,7 +63,7 @@ $fourth-bp: 350px;
   .content {
     grid-area: content;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-evenly;
     gap: 1rem;
     @media (max-width: $first-bp) {
@@ -106,6 +113,9 @@ $fourth-bp: 350px;
     }
     &-scratch {
       @include btn(#ffffff, #dc6e08);
+    }
+    &-web{
+      @include btn(#ffffff, #1d1d1d);
     }
   }
 }

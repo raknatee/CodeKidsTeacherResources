@@ -15,6 +15,10 @@ const routes: Array<RouteRecordRaw> = [
     path: '/scratch',
     component: () => import("@/views/Scratch/Index.vue")
   },
+  {
+    path: '/web-html',
+    component: () => import("@/views/web-html/Index.vue")
+  },
 ]
 
 const router = createRouter({
