@@ -52,24 +52,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/class-logos/web-html/web.png"
   },
   {
-    "revision": "cd18456a84bd4dec8cec",
+    "revision": "bd8240a9cc4653d2bd43",
     "url": "/css/app.abcba1e3.css"
   },
   {
-    "revision": "5fb90f92c9244afc59b7",
+    "revision": "b4eff4c7e851bead942d",
     "url": "/css/chunk-1b23e4c6.fd30820e.css"
   },
   {
-    "revision": "7b81fd9f4bcfbd78b634",
+    "revision": "21144ae4067de42fc3a6",
+    "url": "/css/chunk-26ff26cd.c0586e3a.css"
+  },
+  {
+    "revision": "9688bfbc54a2e5f062d2",
     "url": "/css/chunk-4351e11d.d82e382f.css"
   },
   {
-    "revision": "833fab657e7fab5f524d",
+    "revision": "b15aec38a152eff0ea58",
     "url": "/css/chunk-ba9b1c64.22318a7a.css"
-  },
-  {
-    "revision": "ec50bca628d2522cc205",
-    "url": "/css/chunk-e037929a.a8dd4c5a.css"
   },
   {
     "revision": "2e2580c23f01362b1798de6af5d1d55a",
@@ -84,32 +84,32 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/eina/More Free Fonts on fontshmonts.com.url"
   },
   {
-    "revision": "8aac95b01ed1b0ad5f86378289340540",
+    "revision": "9f8405d05622972fe96cd21ec3444357",
     "url": "/index.html"
   },
   {
-    "revision": "cd18456a84bd4dec8cec",
-    "url": "/js/app.5e76a14b.js"
+    "revision": "bd8240a9cc4653d2bd43",
+    "url": "/js/app.75903600.js"
   },
   {
-    "revision": "5fb90f92c9244afc59b7",
-    "url": "/js/chunk-1b23e4c6.e0db9cd4.js"
+    "revision": "b4eff4c7e851bead942d",
+    "url": "/js/chunk-1b23e4c6.777ecb45.js"
   },
   {
-    "revision": "7b81fd9f4bcfbd78b634",
-    "url": "/js/chunk-4351e11d.565ddaf8.js"
+    "revision": "21144ae4067de42fc3a6",
+    "url": "/js/chunk-26ff26cd.804398e7.js"
   },
   {
-    "revision": "833fab657e7fab5f524d",
-    "url": "/js/chunk-ba9b1c64.c148a859.js"
+    "revision": "9688bfbc54a2e5f062d2",
+    "url": "/js/chunk-4351e11d.d6db1bbf.js"
   },
   {
-    "revision": "ec50bca628d2522cc205",
-    "url": "/js/chunk-e037929a.7633de34.js"
+    "revision": "b15aec38a152eff0ea58",
+    "url": "/js/chunk-ba9b1c64.4a3eef66.js"
   },
   {
-    "revision": "1c5cf6adcf9a78da571b",
-    "url": "/js/chunk-vendors.29ea3009.js"
+    "revision": "0e4768c530c2881f29f8",
+    "url": "/js/chunk-vendors.271883fb.js"
   },
   {
     "revision": "6e6087e71a9337a7ff7ca2461cf13020",

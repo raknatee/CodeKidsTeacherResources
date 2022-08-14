@@ -1,7 +1,7 @@
 <template>
     <Star/>
 
-  <div class="home">
+  <div class="home" id="home">
     <h1>Digital Art Series</h1>
 
     <a
@@ -45,6 +45,7 @@ $bg-color: #1d1d1d;
 
 
   h1 {
+    text-align: center;
     z-index: 2;
     font-size: 4rem;
 
