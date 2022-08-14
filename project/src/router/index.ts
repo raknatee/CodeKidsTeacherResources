@@ -19,6 +19,10 @@ const routes: Array<RouteRecordRaw> = [
     path: '/web-html',
     component: () => import("@/views/web-html/Index.vue")
   },
+  {
+    path: '/digiart',
+    component: () => import("@/views/digiart/Index.vue")
+  },
 ]
 
 const router = createRouter({

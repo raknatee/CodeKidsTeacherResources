@@ -4,28 +4,29 @@
       <h1>CodeKids Teacher</h1>
     </header>
     <div class="content">
-    
+      <router-link to="/scratch" class="btn btn-scratch">
+        <h1>Scratch Series</h1>
+        <img class="btn-img" src="/class-logos/scratch/main.png" alt="" />
+      </router-link>
       <router-link to="/python" class="btn btn-py">
         <h1>Python Series</h1>
         <img class="btn-img" src="/class-logos/py/main.png" alt="" />
       </router-link>
 
-      <router-link to="/scratch" class="btn btn-scratch">
-        <h1>Scratch Series</h1>
-        <img class="btn-img" src="/class-logos/scratch/main.png" alt="" />
+      <router-link to="/digiart" class="btn btn-digiart">
+        <h1>Digital Art Series</h1>
+        <img class="btn-img" src="/class-logos/digiart/main.png" alt="" />
       </router-link>
-       <router-link to="/web-html" class="btn btn-web">
+      <router-link to="/web-html" class="btn btn-web">
         <h1>Web and HTML Series</h1>
-         <img class="btn-img" src="/class-logos/web-html/web.png" alt="" />
-       
-        
+        <img class="btn-img" src="/class-logos/web-html/web.png" alt="" />
       </router-link>
     </div>
   </div>
 </template>
 
 <style lang="scss" scoped>
-$first-bp: 1100px;
+$first-bp: 1300px;
 $second-bp: 600px;
 $third-bp: 500px;
 $fourth-bp: 350px;
@@ -57,13 +58,13 @@ $fourth-bp: 350px;
       padding-right: $pad;
     }
     @media (max-width: $fourth-bp) {
-      font-size: .7rem;
+      font-size: 0.7rem;
     }
   }
   .content {
     grid-area: content;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     justify-content: space-evenly;
     gap: 1rem;
     @media (max-width: $first-bp) {
@@ -95,8 +96,8 @@ $fourth-bp: 350px;
         font-size: 2rem;
       }
       @media (max-width: $fourth-bp) {
-      font-size: 1.5rem;
-    }
+        font-size: 1.5rem;
+      }
     }
     &-img {
       margin: 0 auto;
@@ -106,7 +107,7 @@ $fourth-bp: 350px;
       }
       @media (max-width: $fourth-bp) {
         height: 10vh;
-    }
+      }
     }
     &-py {
       @include btn(#ffffff, #1f202c);
@@ -114,8 +115,11 @@ $fourth-bp: 350px;
     &-scratch {
       @include btn(#ffffff, #dc6e08);
     }
-    &-web{
+    &-web {
       @include btn(#ffffff, #1d1d1d);
+    }
+    &-digiart {
+      @include btn(#1d1d1d, #bdecff);
     }
   }
 }
