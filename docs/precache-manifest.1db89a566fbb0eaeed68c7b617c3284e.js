@@ -52,7 +52,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/class-logos/web-html/web.png"
   },
   {
-    "revision": "bd8240a9cc4653d2bd43",
+    "revision": "900e6554afd7d82bccbd",
     "url": "/css/app.abcba1e3.css"
   },
   {
@@ -60,8 +60,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/css/chunk-1b23e4c6.fd30820e.css"
   },
   {
-    "revision": "21144ae4067de42fc3a6",
-    "url": "/css/chunk-26ff26cd.c0586e3a.css"
+    "revision": "328dfdab8067fb2c2177",
+    "url": "/css/chunk-4283def5.af90eab1.css"
   },
   {
     "revision": "9688bfbc54a2e5f062d2",
@@ -84,20 +84,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/eina/More Free Fonts on fontshmonts.com.url"
   },
   {
-    "revision": "9f8405d05622972fe96cd21ec3444357",
+    "revision": "db6eec015fd88189e1cb39eae941e822",
     "url": "/index.html"
   },
   {
-    "revision": "bd8240a9cc4653d2bd43",
-    "url": "/js/app.75903600.js"
+    "revision": "900e6554afd7d82bccbd",
+    "url": "/js/app.e67dc765.js"
   },
   {
     "revision": "b4eff4c7e851bead942d",
     "url": "/js/chunk-1b23e4c6.777ecb45.js"
   },
   {
-    "revision": "21144ae4067de42fc3a6",
-    "url": "/js/chunk-26ff26cd.804398e7.js"
+    "revision": "328dfdab8067fb2c2177",
+    "url": "/js/chunk-4283def5.c8e9b657.js"
   },
   {
     "revision": "9688bfbc54a2e5f062d2",
